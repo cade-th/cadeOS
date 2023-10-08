@@ -13,7 +13,7 @@ WORKDIR /usr/src/app
 RUN mkdir -p obj/
 RUN mkdir -p bin/
 
-# Copy your makefile and src directory
+# Copy makefile and src directory
 COPY makefile .
 COPY src/ ./src/
 

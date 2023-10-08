@@ -7,7 +7,16 @@
 _start:
     movb $0x0E, %ah
     print_char 'H'
-    # ... (other print_char calls)
+    print_char 'e'
+    print_char 'l'
+    print_char 'l'
+    print_char 'o'
+    print_char ' '
+    print_char 'C'
+    print_char 'a'
+    print_char 'd'
+    print_char 'e'
+    print_char '!'
 
     # Set up disk read using int 0x13, function 0x02
     # We'll read one sector to 0x8000 in memory

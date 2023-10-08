@@ -1,3 +1,8 @@
+## My awesome OS
+- GAS AT&T assembly
+- Docker
+- (SOON) C lol
+
 ## How to Run with Docker
 
 1. Clone this repository: `git clone https://github.com/yourusername/yourrepo.git`

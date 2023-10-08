@@ -2,6 +2,7 @@
 - GAS AT&T assembly
 - Docker
 - (SOON) C lol
+- QEMU x86 CPU emulation
 
 ## How to Run with Docker
 

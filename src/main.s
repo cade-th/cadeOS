@@ -19,7 +19,7 @@ _start:
     print_char '!'
 
     # Set up disk read using int 0x13, function 0x02
-    # We'll read one sector to 0x8000 in memory
+    #  read one sector to 0x8000 in memory
     movw $0x8000, %ax
     movw %ax, %es
     xor %bx, %bx   # offset
